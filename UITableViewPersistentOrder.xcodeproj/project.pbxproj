@@ -28,6 +28,7 @@
 		4CE7569C1690EA0200F8D685 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7566F1690EA0200F8D685 /* CoreData.framework */; };
 		4CE756A41690EA0200F8D685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE756A21690EA0200F8D685 /* InfoPlist.strings */; };
 		4CE756A71690EA0200F8D685 /* UITableViewPersistentOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE756A61690EA0200F8D685 /* UITableViewPersistentOrderTests.m */; };
+		4CE756B21690EE0000F8D685 /* MCStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE756B11690EE0000F8D685 /* MCStaticTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,9 @@
 		4CE756A31690EA0200F8D685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CE756A51690EA0200F8D685 /* UITableViewPersistentOrderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewPersistentOrderTests.h; sourceTree = "<group>"; };
 		4CE756A61690EA0200F8D685 /* UITableViewPersistentOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewPersistentOrderTests.m; sourceTree = "<group>"; };
+		4CE756B01690EE0000F8D685 /* MCStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStaticTableViewController.h; sourceTree = "<group>"; };
+		4CE756B11690EE0000F8D685 /* MCStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStaticTableViewController.m; sourceTree = "<group>"; };
+		4CE756B31690F20800F8D685 /* biz.pomcast.UITableViewPersistentOrder.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = biz.pomcast.UITableViewPersistentOrder.plist; path = "../../../../../../Library/Application Support/iPhone Simulator/6.1/Applications/31C5745A-7702-45C6-8B33-A62DED7D8450/Library/Preferences/biz.pomcast.UITableViewPersistentOrder.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				4CE7567A1690EA0200F8D685 /* MCAppDelegate.h */,
 				4CE7567B1690EA0200F8D685 /* MCAppDelegate.m */,
 				4CE756831690EA0200F8D685 /* MainStoryboard_iPhone.storyboard */,
+				4CE756B01690EE0000F8D685 /* MCStaticTableViewController.h */,
+				4CE756B11690EE0000F8D685 /* MCStaticTableViewController.m */,
 				4CE756861690EA0200F8D685 /* MainStoryboard_iPad.storyboard */,
 				4CE7568C1690EA0200F8D685 /* MCMasterViewController.h */,
 				4CE7568D1690EA0200F8D685 /* MCMasterViewController.m */,
@@ -147,6 +153,7 @@
 		4CE756721690EA0200F8D685 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CE756B31690F20800F8D685 /* biz.pomcast.UITableViewPersistentOrder.plist */,
 				4CE756731690EA0200F8D685 /* UITableViewPersistentOrder-Info.plist */,
 				4CE756741690EA0200F8D685 /* InfoPlist.strings */,
 				4CE756771690EA0200F8D685 /* main.m */,
@@ -294,6 +301,7 @@
 				4CE7568B1690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodeld in Sources */,
 				4CE7568E1690EA0200F8D685 /* MCMasterViewController.m in Sources */,
 				4CE756911690EA0200F8D685 /* MCDetailViewController.m in Sources */,
+				4CE756B21690EE0000F8D685 /* MCStaticTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

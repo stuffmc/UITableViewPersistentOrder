@@ -34,6 +34,7 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (MCDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.editing = YES;
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,6 +64,10 @@
 }
 
 #pragma mark - Table View
+
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
+{
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
