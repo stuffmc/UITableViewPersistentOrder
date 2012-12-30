@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE7566A1690EA0200F8D685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE756691690EA0200F8D685 /* UIKit.framework */; };
+		4CE7566C1690EA0200F8D685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7566B1690EA0200F8D685 /* Foundation.framework */; };
+		4CE7566E1690EA0200F8D685 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7566D1690EA0200F8D685 /* CoreGraphics.framework */; };
+		4CE756701690EA0200F8D685 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7566F1690EA0200F8D685 /* CoreData.framework */; };
+		4CE756761690EA0200F8D685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE756741690EA0200F8D685 /* InfoPlist.strings */; };
+		4CE756781690EA0200F8D685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE756771690EA0200F8D685 /* main.m */; };
+		4CE7567C1690EA0200F8D685 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7567B1690EA0200F8D685 /* MCAppDelegate.m */; };
+		4CE7567E1690EA0200F8D685 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE7567D1690EA0200F8D685 /* Default.png */; };
+		4CE756801690EA0200F8D685 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE7567F1690EA0200F8D685 /* Default@2x.png */; };
+		4CE756821690EA0200F8D685 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE756811690EA0200F8D685 /* Default-568h@2x.png */; };
+		4CE756851690EA0200F8D685 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE756831690EA0200F8D685 /* MainStoryboard_iPhone.storyboard */; };
+		4CE756881690EA0200F8D685 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE756861690EA0200F8D685 /* MainStoryboard_iPad.storyboard */; };
+		4CE7568B1690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CE756891690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodeld */; };
+		4CE7568E1690EA0200F8D685 /* MCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7568D1690EA0200F8D685 /* MCMasterViewController.m */; };
+		4CE756911690EA0200F8D685 /* MCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE756901690EA0200F8D685 /* MCDetailViewController.m */; };
+		4CE756991690EA0200F8D685 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE756981690EA0200F8D685 /* SenTestingKit.framework */; };
+		4CE7569A1690EA0200F8D685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE756691690EA0200F8D685 /* UIKit.framework */; };
+		4CE7569B1690EA0200F8D685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7566B1690EA0200F8D685 /* Foundation.framework */; };
+		4CE7569C1690EA0200F8D685 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE7566F1690EA0200F8D685 /* CoreData.framework */; };
+		4CE756A41690EA0200F8D685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE756A21690EA0200F8D685 /* InfoPlist.strings */; };
+		4CE756A71690EA0200F8D685 /* UITableViewPersistentOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE756A61690EA0200F8D685 /* UITableViewPersistentOrderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE7569D1690EA0200F8D685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE7565E1690EA0200F8D685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE756651690EA0200F8D685;
+			remoteInfo = UITableViewPersistentOrder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CE756661690EA0200F8D685 /* UITableViewPersistentOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewPersistentOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE756691690EA0200F8D685 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CE7566B1690EA0200F8D685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CE7566D1690EA0200F8D685 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CE7566F1690EA0200F8D685 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4CE756731690EA0200F8D685 /* UITableViewPersistentOrder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewPersistentOrder-Info.plist"; sourceTree = "<group>"; };
+		4CE756751690EA0200F8D685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CE756771690EA0200F8D685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CE756791690EA0200F8D685 /* UITableViewPersistentOrder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewPersistentOrder-Prefix.pch"; sourceTree = "<group>"; };
+		4CE7567A1690EA0200F8D685 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		4CE7567B1690EA0200F8D685 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		4CE7567D1690EA0200F8D685 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4CE7567F1690EA0200F8D685 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4CE756811690EA0200F8D685 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CE756841690EA0200F8D685 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4CE756871690EA0200F8D685 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4CE7568A1690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITableViewPersistentOrder.xcdatamodel; sourceTree = "<group>"; };
+		4CE7568C1690EA0200F8D685 /* MCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCMasterViewController.h; sourceTree = "<group>"; };
+		4CE7568D1690EA0200F8D685 /* MCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMasterViewController.m; sourceTree = "<group>"; };
+		4CE7568F1690EA0200F8D685 /* MCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDetailViewController.h; sourceTree = "<group>"; };
+		4CE756901690EA0200F8D685 /* MCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDetailViewController.m; sourceTree = "<group>"; };
+		4CE756971690EA0200F8D685 /* UITableViewPersistentOrderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewPersistentOrderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE756981690EA0200F8D685 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4CE756A11690EA0200F8D685 /* UITableViewPersistentOrderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewPersistentOrderTests-Info.plist"; sourceTree = "<group>"; };
+		4CE756A31690EA0200F8D685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CE756A51690EA0200F8D685 /* UITableViewPersistentOrderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewPersistentOrderTests.h; sourceTree = "<group>"; };
+		4CE756A61690EA0200F8D685 /* UITableViewPersistentOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewPersistentOrderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE756631690EA0200F8D685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE7566A1690EA0200F8D685 /* UIKit.framework in Frameworks */,
+				4CE7566C1690EA0200F8D685 /* Foundation.framework in Frameworks */,
+				4CE7566E1690EA0200F8D685 /* CoreGraphics.framework in Frameworks */,
+				4CE756701690EA0200F8D685 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE756931690EA0200F8D685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE756991690EA0200F8D685 /* SenTestingKit.framework in Frameworks */,
+				4CE7569A1690EA0200F8D685 /* UIKit.framework in Frameworks */,
+				4CE7569B1690EA0200F8D685 /* Foundation.framework in Frameworks */,
+				4CE7569C1690EA0200F8D685 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CE7565D1690EA0200F8D685 = {
+			isa = PBXGroup;
+			children = (
+				4CE756711690EA0200F8D685 /* UITableViewPersistentOrder */,
+				4CE7569F1690EA0200F8D685 /* UITableViewPersistentOrderTests */,
+				4CE756681690EA0200F8D685 /* Frameworks */,
+				4CE756671690EA0200F8D685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE756671690EA0200F8D685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE756661690EA0200F8D685 /* UITableViewPersistentOrder.app */,
+				4CE756971690EA0200F8D685 /* UITableViewPersistentOrderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE756681690EA0200F8D685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE756691690EA0200F8D685 /* UIKit.framework */,
+				4CE7566B1690EA0200F8D685 /* Foundation.framework */,
+				4CE7566D1690EA0200F8D685 /* CoreGraphics.framework */,
+				4CE7566F1690EA0200F8D685 /* CoreData.framework */,
+				4CE756981690EA0200F8D685 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE756711690EA0200F8D685 /* UITableViewPersistentOrder */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7567A1690EA0200F8D685 /* MCAppDelegate.h */,
+				4CE7567B1690EA0200F8D685 /* MCAppDelegate.m */,
+				4CE756831690EA0200F8D685 /* MainStoryboard_iPhone.storyboard */,
+				4CE756861690EA0200F8D685 /* MainStoryboard_iPad.storyboard */,
+				4CE7568C1690EA0200F8D685 /* MCMasterViewController.h */,
+				4CE7568D1690EA0200F8D685 /* MCMasterViewController.m */,
+				4CE7568F1690EA0200F8D685 /* MCDetailViewController.h */,
+				4CE756901690EA0200F8D685 /* MCDetailViewController.m */,
+				4CE756891690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodeld */,
+				4CE756721690EA0200F8D685 /* Supporting Files */,
+			);
+			path = UITableViewPersistentOrder;
+			sourceTree = "<group>";
+		};
+		4CE756721690EA0200F8D685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE756731690EA0200F8D685 /* UITableViewPersistentOrder-Info.plist */,
+				4CE756741690EA0200F8D685 /* InfoPlist.strings */,
+				4CE756771690EA0200F8D685 /* main.m */,
+				4CE756791690EA0200F8D685 /* UITableViewPersistentOrder-Prefix.pch */,
+				4CE7567D1690EA0200F8D685 /* Default.png */,
+				4CE7567F1690EA0200F8D685 /* Default@2x.png */,
+				4CE756811690EA0200F8D685 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CE7569F1690EA0200F8D685 /* UITableViewPersistentOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE756A51690EA0200F8D685 /* UITableViewPersistentOrderTests.h */,
+				4CE756A61690EA0200F8D685 /* UITableViewPersistentOrderTests.m */,
+				4CE756A01690EA0200F8D685 /* Supporting Files */,
+			);
+			path = UITableViewPersistentOrderTests;
+			sourceTree = "<group>";
+		};
+		4CE756A01690EA0200F8D685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE756A11690EA0200F8D685 /* UITableViewPersistentOrderTests-Info.plist */,
+				4CE756A21690EA0200F8D685 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE756651690EA0200F8D685 /* UITableViewPersistentOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE756AA1690EA0200F8D685 /* Build configuration list for PBXNativeTarget "UITableViewPersistentOrder" */;
+			buildPhases = (
+				4CE756621690EA0200F8D685 /* Sources */,
+				4CE756631690EA0200F8D685 /* Frameworks */,
+				4CE756641690EA0200F8D685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableViewPersistentOrder;
+			productName = UITableViewPersistentOrder;
+			productReference = 4CE756661690EA0200F8D685 /* UITableViewPersistentOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CE756961690EA0200F8D685 /* UITableViewPersistentOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE756AD1690EA0200F8D685 /* Build configuration list for PBXNativeTarget "UITableViewPersistentOrderTests" */;
+			buildPhases = (
+				4CE756921690EA0200F8D685 /* Sources */,
+				4CE756931690EA0200F8D685 /* Frameworks */,
+				4CE756941690EA0200F8D685 /* Resources */,
+				4CE756951690EA0200F8D685 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE7569E1690EA0200F8D685 /* PBXTargetDependency */,
+			);
+			name = UITableViewPersistentOrderTests;
+			productName = UITableViewPersistentOrderTests;
+			productReference = 4CE756971690EA0200F8D685 /* UITableViewPersistentOrderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE7565E1690EA0200F8D685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Pomcast.biz;
+			};
+			buildConfigurationList = 4CE756611690EA0200F8D685 /* Build configuration list for PBXProject "UITableViewPersistentOrder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CE7565D1690EA0200F8D685;
+			productRefGroup = 4CE756671690EA0200F8D685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE756651690EA0200F8D685 /* UITableViewPersistentOrder */,
+				4CE756961690EA0200F8D685 /* UITableViewPersistentOrderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE756641690EA0200F8D685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE756761690EA0200F8D685 /* InfoPlist.strings in Resources */,
+				4CE7567E1690EA0200F8D685 /* Default.png in Resources */,
+				4CE756801690EA0200F8D685 /* Default@2x.png in Resources */,
+				4CE756821690EA0200F8D685 /* Default-568h@2x.png in Resources */,
+				4CE756851690EA0200F8D685 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4CE756881690EA0200F8D685 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE756941690EA0200F8D685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE756A41690EA0200F8D685 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CE756951690EA0200F8D685 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE756621690EA0200F8D685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE756781690EA0200F8D685 /* main.m in Sources */,
+				4CE7567C1690EA0200F8D685 /* MCAppDelegate.m in Sources */,
+				4CE7568B1690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodeld in Sources */,
+				4CE7568E1690EA0200F8D685 /* MCMasterViewController.m in Sources */,
+				4CE756911690EA0200F8D685 /* MCDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE756921690EA0200F8D685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE756A71690EA0200F8D685 /* UITableViewPersistentOrderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE7569E1690EA0200F8D685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE756651690EA0200F8D685 /* UITableViewPersistentOrder */;
+			targetProxy = 4CE7569D1690EA0200F8D685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CE756741690EA0200F8D685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE756751690EA0200F8D685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CE756831690EA0200F8D685 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE756841690EA0200F8D685 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE756861690EA0200F8D685 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE756871690EA0200F8D685 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE756A21690EA0200F8D685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE756A31690EA0200F8D685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE756A81690EA0200F8D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CE756A91690EA0200F8D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE756AB1690EA0200F8D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewPersistentOrder/UITableViewPersistentOrder-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewPersistentOrder/UITableViewPersistentOrder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CE756AC1690EA0200F8D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewPersistentOrder/UITableViewPersistentOrder-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewPersistentOrder/UITableViewPersistentOrder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CE756AE1690EA0200F8D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITableViewPersistentOrder.app/UITableViewPersistentOrder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewPersistentOrder/UITableViewPersistentOrder-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewPersistentOrderTests/UITableViewPersistentOrderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4CE756AF1690EA0200F8D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITableViewPersistentOrder.app/UITableViewPersistentOrder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewPersistentOrder/UITableViewPersistentOrder-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewPersistentOrderTests/UITableViewPersistentOrderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE756611690EA0200F8D685 /* Build configuration list for PBXProject "UITableViewPersistentOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE756A81690EA0200F8D685 /* Debug */,
+				4CE756A91690EA0200F8D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE756AA1690EA0200F8D685 /* Build configuration list for PBXNativeTarget "UITableViewPersistentOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE756AB1690EA0200F8D685 /* Debug */,
+				4CE756AC1690EA0200F8D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CE756AD1690EA0200F8D685 /* Build configuration list for PBXNativeTarget "UITableViewPersistentOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE756AE1690EA0200F8D685 /* Debug */,
+				4CE756AF1690EA0200F8D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CE756891690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CE7568A1690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodel */,
+			);
+			currentVersion = 4CE7568A1690EA0200F8D685 /* UITableViewPersistentOrder.xcdatamodel */;
+			path = UITableViewPersistentOrder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CE7565E1690EA0200F8D685 /* Project object */;
+}
