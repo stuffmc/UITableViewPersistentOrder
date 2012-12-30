@@ -114,7 +114,19 @@
 
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
 {
-    [array exchangeObjectAtIndex:sourceIndexPath.row withObjectAtIndex:destinationIndexPath.row];
+    // Option 1
+    NSMutableOrderedSet *set = [NSMutableOrderedSet orderedSetWithArray:array];
+    [set moveObjectsAtIndexes:[NSIndexSet indexSetWithIndex:sourceIndexPath.row] toIndex:destinationIndexPath.row];
+    array = [[set array] mutableCopy];
+    
+    // Option 2
+//    if (sourceIndexPath.row > destinationIndexPath.row) {
+//        [array insertObject:array[sourceIndexPath.row] atIndex:destinationIndexPath.row];
+//        [array removeObjectAtIndex:sourceIndexPath.row + 1];
+//    } else {
+//        [array insertObject:array[sourceIndexPath.row] atIndex:destinationIndexPath.row + 1];
+//        [array removeObjectAtIndex:sourceIndexPath.row];
+//    }
     [self persistArray];
 }
 
